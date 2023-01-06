@@ -3,19 +3,19 @@ public void setup()
 {            
     //your code here 
     String digits = e.substring(0, 10);
-    double dDigits = Double.parseDouble(digits); {
-    for (int i = 0; i < e.length() - 10; i ++)
+    double dDigits = Double.parseDouble(digits); 
+    for (int i = 0; i < e.length() - 10; i ++) {
       digits = e.substring(i, i + 10);
-      dDigits = Double.parseDouble(digits)
+      dDigits = Double.parseDouble(digits);
       if (isPrime(dDigits) == true) {
         System.out.println(dDigits);
-	break;
-	}
+        break;
+  }
       }
 }  
 public void draw()  
 {   
-	//not needed for this assignment
+  //not needed for this assignment
 }  
 public boolean isPrime(double dNum)  
 {   
