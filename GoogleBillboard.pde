@@ -7,7 +7,7 @@ public void setup()
     for (int i = 0; i < e.length() - 10; i ++)
       digits = e.substring(i, i + 10);
       dDigits = Double.parseDouble(digits)
-      if (isPrime(dDights) == true) {
+      if (isPrime(dDigits) == true) {
         System.out.println(dDigits);
 	break;
 	}
